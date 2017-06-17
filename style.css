@@ -37,9 +37,12 @@ img.rock-climbing {
 figcaption {
   font-style: italic;
 }
+table, td, th {
+  border: 0.1px solid black;
+}
 .facilities {
   display: inline-block;
-  width:290px;
+  width:320px;
   height:90px;
   margin-right: 15px;
 }
