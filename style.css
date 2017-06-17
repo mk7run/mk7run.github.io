@@ -4,13 +4,13 @@
   top: 20px;
   right: 20px;
   height: 500px;
-  font-family: bubbler one, serif;
+  font-family: "bubbler one", serif;
   font-size: 1em;
   color: gray;
   background-image: url("http://www.closertotheedge.co.uk/wp-content/uploads/2015/09/rock-climbing2.png");
   background-repeat: no-repeat;}
 #heading {
-  font-family: permanent marker, courier new, sans-serif;
+  font-family: "permanent marker", "courier new", sans-serif;
   font-size: 2em;
   text-align: center;
 }
@@ -33,7 +33,6 @@ img.rock-climbing {
   width: 225px;
   height: 338px;
   border-radius: 15px 50px;
-  align: center;
 }
 figcaption {
   font-style: italic;
@@ -51,4 +50,5 @@ a:visited {
 {
 #author {
   display: none;
+  }
 }
