@@ -3,31 +3,55 @@
   position: fixed;
   top: 20px;
   right: 20px;
-  padding-right: 10px;
-  font-family: bubbler one, serif;
-  font-size: 0.8em;
-}
+  height: 500px;
+  font-family: "bubbler one", serif;
+  font-size: 1em;
+  color: gray;
+  background-image: url("http://www.closertotheedge.co.uk/wp-content/uploads/2015/09/rock-climbing2.png");
+  background-repeat: no-repeat;}
 #heading {
-  font-family: permanent marker, courier new, sans-serif;
+  font-family: "permanent marker", "courier new", sans-serif;
   font-size: 2em;
   text-align: center;
+}
+#safety {
+  background-color: #8FBC8F;
+  padding: 1em;
+  margin: 1em;
+  border-style: dotted;
+  border-width: 2px;
+}
+#note-box {
+  width: 275px
 }
 /* images size and alignment */
 figure {
   vertical-align: top;
   display: inline-block;
-  align-items: center;
 }
 img.rock-climbing {
-  width: 330px;
-  height: 495px;
+  width: 225px;
+  height: 338px;
+  border-radius: 15px 50px;
 }
 figcaption {
   font-style: italic;
 }
+table, td, th {
+  border: 0.1px solid black;
+}
+.facilities {
+  display: inline-block;
+  width:320px;
+  height:90px;
+  margin-right: 15px;
+}
+a:visited {
+  color: #006400;
+}
 @media screen and (max-width: 1000px)
-  {
-  #author {
-    display: none;
+{
+#author {
+  display: none;
   }
-  }
+}
