@@ -1,0 +1,33 @@
+/* fix author to top right corner */
+#author {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding-right: 10px;
+  font-family: bubbler one, serif;
+  font-size: 0.8em;
+}
+#heading {
+  font-family: permanent marker, courier new, sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+/* images size and alignment */
+figure {
+  vertical-align: top;
+  display: inline-block;
+  align-items: center;
+}
+img.rock-climbing {
+  width: 330px;
+  height: 495px;
+}
+figcaption {
+  font-style: italic;
+}
+@media screen and (max-width: 1000px)
+  {
+  #author {
+    display: none;
+  }
+  }
