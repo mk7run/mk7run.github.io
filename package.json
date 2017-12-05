@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mk7run/mk7run.github.io/issues"
   },
-  "homepage": "https://github.com/mk7run/mk7run.github.io#readme"
+  "homepage": "https://github.com/mk7run/mk7run.github.io#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
