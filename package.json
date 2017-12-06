@@ -1,0 +1,22 @@
+{
+  "name": "mk7run.github.io",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk7run/mk7run.github.io.git"
+  },
+  "author": "Melissa Kanhirun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mk7run/mk7run.github.io/issues"
+  },
+  "homepage": "https://github.com/mk7run/mk7run.github.io#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
